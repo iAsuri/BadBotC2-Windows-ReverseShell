@@ -4,6 +4,8 @@
 
 BadBot Windows Reverse Shell is a proof-of-concept tool designed to demonstrate reverse shell capabilities on Windows systems. Use this tool only in a legal and ethical manner. Misuse may result in severe legal consequences.
 
+(https://gyazo.com/245fd3995dbe86e3a4d54c374fcb6b6b)
+
 ## ✨ Features
 
 - 🌐 Establish a reverse shell connection from a Windows machine
