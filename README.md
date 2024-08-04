@@ -1,30 +1,43 @@
-# BADBOT WINDOWS REVERSE SHELL 🪟
+# BadBot Windows Reverse Shell 🪟
 
-## 📜 OVERVIEW
+## 📜 Overview
 
-BADBOT WINDOWS REVERSE SHELL IS A PROOF-OF-CONCEPT TOOL DESIGNED TO DEMONSTRATE REVERSE SHELL CAPABILITIES ON WINDOWS SYSTEMS. USE THIS TOOL ONLY IN A LEGAL AND ETHICAL MANNER. MISUSE MAY RESULT IN SEVERE LEGAL CONSEQUENCES.
+BadBot Windows Reverse Shell is a proof-of-concept tool designed to demonstrate reverse shell capabilities on Windows systems. Use this tool only in a legal and ethical manner. Misuse may result in severe legal consequences.
 
-## ✨ FEATURES
+## ✨ Features
 
-- 🌐 ESTABLISH A REVERSE SHELL CONNECTION FROM A WINDOWS MACHINE
-- ⚙️ SUPPORTS BASIC COMMAND EXECUTION
+- 🌐 Establish a reverse shell connection from a Windows machine
+- ⚙️ Supports basic command execution
 
-## 💡 REQUIREMENTS
+## 💡 Requirements
 
-- 🖥️ WINDOWS OPERATING SYSTEM
-- 🛠️ Golang / GCC MUST BE INSTALLED IF YOU WANT TO COMPILE
-- 🌍 NETWORK ACCESS TO A REMOTE SERVER
+- 🖥️ Windows operating system
+- 🛠️ Golang / GCC must be installed if you want to compile
+- 🌍 Network access to a remote server
 
-## 🚀 USAGE
+## 🚀 Usage
 
-1. **THE SERVER (ATTACKER'S SIDE)**
+1. **The Server (Attacker's Side)**
 
     ```bash
-    Attacker > $ ./BadBot-Server.exe [Port]
+    attacker > $ ./BadBot-Server.exe [Port]
     ```
 
-2. **CLIENT (TARGET'S SIDE)**
+2. **Client (Target's Side)**
 
     ```bash
-    Target > $ ./BadBot-Client.exe [Port]
+    target > $ ./BadBot-Client.exe [Port]
+    ```
+
+## 🔨 Compilation
+1. **Server**
+   
+    ```bash
+    $ go build .
+    ```
+2. **Client**
+
+    ```bash
+    $ gcc main.c -lws2_32 -Wall -Wextra -Wpedantic -o BadBot-Client.exe
+
     ```
