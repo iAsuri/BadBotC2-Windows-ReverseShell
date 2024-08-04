@@ -33,7 +33,7 @@ BadBot Windows Reverse Shell is a proof-of-concept tool designed to demonstrate 
 1. **Server**
    
     ```bash
-    $ go build .
+    $ go build -o BadBot-Server.exe
     ```
 2. **Client**
 
