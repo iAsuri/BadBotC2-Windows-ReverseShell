@@ -25,7 +25,7 @@ func shellCount(args ...string) {
 
 func writeTo_Client(client slave.Client) {
 
-	fmt.Printf("\x1b[2J\x1b[HBadBot %s Shell [Version 1.0]\nCreation By 2Waysz. Powered By Goland And C. Type 'exit' to leave shell\n\n", client.Name)
+	fmt.Printf("\x1b[2J\x1b[HBadBot %s Shell [Version 1.0]\nCreation By Asuri. Powered By Goland And C. Type 'exit' to leave shell\n\n", client.Name)
 
 	var Input string
 
